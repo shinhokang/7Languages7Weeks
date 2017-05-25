@@ -11,9 +11,11 @@ puts "Hello, world"
 puts "Hello, Ruby".index("Ruby")
 
 # 3
+10.times {puts "shinho"}
 (1..10).step {puts "shinho"}
 
 # 4
+10.times {|x| puts "This is sentence number #{x+1}"}
 (1..10).step {|x| puts "This is sentence number #{x}"}
 
 # 5
